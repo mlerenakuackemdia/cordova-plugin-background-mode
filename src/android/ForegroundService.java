@@ -130,7 +130,7 @@ public class ForegroundService extends Service {
         boolean isSilent    = settings.optBoolean("silent", false);
 
         if (!isSilent) {
-            startForeground(NOTIFICATION_ID, makeNotification(), ServiceInfo.FOREGROUND_SERVICE_TYPE_MEDIA_PLAYBACK);
+          //  startForeground(NOTIFICATION_ID, makeNotification(), ServiceInfo.FOREGROUND_SERVICE_TYPE_MEDIA_PLAYBACK);
         }
 
         PowerManager pm = (PowerManager)getSystemService(POWER_SERVICE);
